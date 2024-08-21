@@ -11,5 +11,5 @@ fn get_hello_world() -> &'static str {
 }
 
 fn get_hello_world_string() -> String {
-    return "Hello World".to_string();
+    return String::from("Hello World");
 }
